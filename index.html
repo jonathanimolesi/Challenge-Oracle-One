@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Decodificador</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<header>
+		<img src="Vector.png" alt="Logotipo letra A">
+	</header>
+	<main>
+		<section class="textos">
+			<textarea cols="50" rows="20" class="texto-codificar" id="textoUm" placeholder="Digite sua mensagem para codificar/descodificar aqui...."></textarea>
+
+			<textarea cols="50" rows="20" class="texto-modificado" id="textoDois"></textarea>
+		</section>
+		<section class="botoes">
+			<p class="aviso">&#9888; Apenas letras minúsculas e sem acento.</p>
+			<button value="Criptografar" class="codificando" id="botaoC">Criptografar</button>
+			<button value="Descriptografar" class="descodificando" id="botaoD">Descriptografar</button>	
+			<button value="Copiar" class="copiandoT" id="botaoCopiar">Copiar</button>
+		</section>
+		<script src="script.js"></script>
+	</main>
+</body>
+</html>
